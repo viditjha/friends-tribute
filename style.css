@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+#img-div {
+    height: 55.5vw;
+}
+
+#img-div img {
+    display: block;
+    margin-bottom: auto;
+    width: 100%;
+    border-bottom: 4em #808080 solid;
+}
+
+#about-title {
+    padding-top: 2vh;
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 3vh;
+    color: #ffffff;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+.about-container {
+    background: #111111;
+    display: block;
+    margin: auto;
+    border-top: 5px #808080 solid;
+}
+
+#about {
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: 40% 40%;
+    grid-gap: 10%;
+    justify-content: center;
+    padding-bottom: 2vh;
+    background-color: #111111;
+}
+
+#tribute-info {
+    display: block;
+    color: #808080;
+    text-align: justify;
+    font-size: 1.25em;
+    text-indent: 4em;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    padding-bottom: 2vh;
+}
+
+#tribute-link:hover {
+    color: #0000ff;
+}
+
+#gray-to-white {
+    display: block;
+    background: linear-gradient(180deg, #111111, white);
+    height: 10px;
+    width: 10px;
+}
+
+#white-to-gray {
+    display: block;
+    background: linear-gradient(180deg, white, #111);
+    height: 10px;
+    width: 100%;
+}
+
+#char-container {
+    padding-bottom: 2vw;
+}
+
+#char {
+    padding-top: 2vw;
+    background: #ffffff;
+    text-align: center;
+    font-size: 5vw;
+}
+
+#posters {
+    padding-top: 2vh;
+    border-top: 0.2em gradient solid;
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-row-gap: 10vh;
+    grid-column-gap: 5vw;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.poster-wrapper {
+    margin: auto;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.poster {
+    width: 100%;
+    display: block;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    filter: grayscale(100%);
+}
+
+.poster:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+.trivia-container {
+    background: #111111;
+    border: 3px #ffc0cb solid;
+}
+
+#trivia-container {
+    position: relative;
+    text-align: center;
+    background-color: #000000;
+}
+
+#trivia-container h1 {
+    position: absolute;
+    top: 2vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6vw;
+    padding-top: 10vh;
+    color: white;
+    text-shadow: 6px 6px #000;
+}
+
+#trivia-list {
+    position: absolute;
+    top: 12vw;
+    margin-left: 10%;
+    text-align: left;
+    width: 80%;
+}
+
+#trivia-list li {
+    color: #d3d3d3;
+    position: relative;
+    font-size: 2vw;
+    padding-bottom: 1em;
+    text-shadow: 2px 2px #000000;
+}
+
+#trivia-container img {
+    opacity: 0.25;
+    filter: grayscale(100%);
+    width: 100%;
+    height: 850px;
+}
+
+footer {
+    background-color: #111;
+    height: 4vh;
+    padding-top: 1vh;
+    margin-top: 10px black solid;
+    font-size: 2vh;
+    color: lightgray;
+    text-align: center;
+}
